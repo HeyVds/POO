@@ -1,14 +1,14 @@
 def gerenciamento_alunos(alunos):
-  print ("Bem vindo à escola, abaixo você terá um menu com as opções de ações.")
+  print ("\nBem vindo à escola, abaixo você terá um menu com as opções de ações.")
   while True:
     menu = input("""
   Escolha uma opção:
-  1 adicionar um novo aluno e suas notas
-  2 atualizar a nota de um aluno
-  3 remover um aluno
-  4 exibir todos os alunos
-  5 exibir a média de cada aluno 
-  0 Voltar
+  1 - Adicionar um novo aluno e suas notas
+  2 - Atualizar a nota de um aluno
+  3 - Remover um aluno
+  4 - Exibir todos os alunos
+  5 - Exibir a média de cada aluno 
+  0 - Voltar
                  
   """)
     match menu:
